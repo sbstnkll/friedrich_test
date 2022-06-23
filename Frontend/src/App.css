@@ -1,0 +1,47 @@
+body {
+  background: rgb(208, 214, 217);
+}
+
+.Header {
+  border: 2px dotted;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Header > div {
+  border: 2px solid;
+}
+
+.nav {
+  display: flex;
+  margin-left: 20px;
+}
+
+.Feed {
+  border: 1px solid;
+  height: 80vh;
+}
+
+.Sidebar {
+  border: 2px dotted;
+  height: 80vh;
+}
+
+.Footer {
+  display: flex;
+  justify-content: center;
+  border: 2px dotted;
+  height: 10vh;
+}
+.Input {
+  box-shadow: 1px 5px 15px 0px;
+  width: 70%;
+  margin-left: 15%;
+}
+
+.sendButton {
+  height: 20px;
+}
+
+#filled-basic {
+}
