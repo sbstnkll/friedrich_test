@@ -25,7 +25,12 @@ const words     = checkWord('de'); // setup the language for check, default is e
 
 const uri = process.env.MONGO_URI; // auslesen der .env datei
 const app = express();
-const port = 8000;
+
+
+const port = process.env.PORT || 8000;
+//const port = 8000;
+
+
 const PORT_CHATSERVER = 8002;
 const NEW_CHAT_MESSAGE_EVENT = "newChatMessage";
 let DBconnection;
