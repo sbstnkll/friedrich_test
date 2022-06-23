@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "cd Backend && npm start",
+    "build": "cd Backend && npm i && cd .. && cd Frontend && npm i",
     "dev": "concurrently \"cd backend && npm run dev\" \"cd frontend && npm start\""
   },
   "keywords": [],
