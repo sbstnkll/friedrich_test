@@ -79,7 +79,7 @@ const ChatModel = mongoose.model("chats", conversationSchema)
 
 
 // Verbindung mit der MongoDB herstellen
-/* app.use(async function (req, res, next) {
+app.use(async function (req, res, next) {
   await mongoose.connect(uri);
   //await mongoose.connect('mongodb://localhost:27017/socialAppDB');
   DBconnection = mongoose.connection;
@@ -89,7 +89,7 @@ const ChatModel = mongoose.model("chats", conversationSchema)
     gfs.collection("photos");
   });
   next();
-}); */
+});
 
 // Wörter im Duden überprüfen
 app.put("/api/WordExisits", async (req, res) => {
